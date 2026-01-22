@@ -113,7 +113,6 @@ class _HomeViewState extends State<HomeView> {
               onPressed: () => controller.scrollToTop(),
               backgroundColor: AppColors.blackColor,
               foregroundColor: AppColors.whiteColor,
-              splashColor: AppColors.whiteColor,
               mini: true,
               elevation: 5,
               child: const Icon(Icons.keyboard_arrow_up),
